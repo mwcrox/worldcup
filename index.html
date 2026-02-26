@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Cup Fantasy League</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__inner">
+            <div>
+                <h1>World Cup Fantasy League</h1>
+                <p class="muted">Pick group winners • Earn seed points • Tie-break with fair play</p>
+            </div>
+
+            <div class="header__actions">
+                <!-- Controlled by data/config.json (shown only when submissionsOpen=true) -->
+                <button id="makePicksBtn" class="btn btn-primary" type="button" hidden>
+                    Make Picks (Google Form)
+                </button>
+            </div>
+        </div>
+
+        <nav class="tabs">
+            <a class="tab active" href="#leaderboard" id="tab-leaderboard">Leaderboard</a>
+            <a class="tab" href="#entries" id="tab-entries">Entries</a>
+            <a class="tab" href="#rules" id="tab-rules">Rules</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- LEADERBOARD -->
+        <section id="view-leaderboard" class="view">
+            <div class="card">
+                <div class="card__header">
+                    <h2>Leaderboard</h2>
+                    <p class="muted">
+                        Sorted by Points, then Correct Picks, then Lowest Fair Play.
+                    </p>
+                </div>
+
+                <div class="table-wrap">
+                    <table id="leaderboardTable">
+                        <thead>
+                            <tr>
+                                <th>Place</th>
+                                <th>Name</th>
+                                <th class="num">Total Points</th>
+                                <th class="num">Correct Picks</th>
+                                <th class="num">Fair Play Points</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ENTRIES -->
+        <section id="view-entries" class="view" hidden>
+            <div class="card">
+                <div class="card__header">
+                    <h2>Entries</h2>
+                    <p class="muted">
+                        Each player’s picks and fair play totals.
+                    </p>
+                </div>
+
+                <div class="table-wrap">
+                    <table id="entriesTable">
+                        <thead id="entriesHead"></thead>
+                        <tbody id="entriesBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- RULES -->
+        <section id="view-rules" class="view" hidden>
+            <div class="card">
+                <div class="card__header">
+                    <h2>Rules</h2>
+                </div>
+
+                <div class="content">
+
+                    <h3>How scoring works</h3>
+                    <ul>
+                        <li>You pick the team you think will win each group.</li>
+                        <li>If correct, you earn points equal to that team's seed.</li>
+                        <li>Example: Seed 3 winner = 3 points.</li>
+                    </ul>
+
+                    <h3>Tie-breakers</h3>
+                    <ol>
+                        <li>Most Correct Picks</li>
+                        <li>Lowest Fair Play Points</li>
+                    </ol>
+
+                    <h3>Fair play points</h3>
+                    <ul>
+                        <li>Every team accumulates fair play deductions during group play.</li>
+                        <li>Your fair play total equals the sum of all teams you selected.</li>
+                        <li>Lower fair play total wins the tie-breaker.</li>
+                    </ul>
+
+                    <h3>Fair play deduction system</h3>
+                    <p class="muted">
+                        Only one deduction can be applied per player per match:
+                    </p>
+                    <ul>
+                        <li>Yellow card: −1 point</li>
+                        <li>Indirect red (second yellow): −3 points</li>
+                        <li>Direct red: −4 points</li>
+                        <li>Yellow card + direct red: −5 points</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

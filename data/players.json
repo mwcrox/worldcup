@@ -1,0 +1,92 @@
+[
+    {
+        "id": "p1",
+        "name": "Alice",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "CAN",
+            "Group C": "BRA",
+            "Group D": "USA",
+            "Group E": "GER",
+            "Group F": "NED",
+            "Group G": "BEL",
+            "Group H": "ESP",
+            "Group I": "FRA",
+            "Group J": "ARG",
+            "Group K": "POR",
+            "Group L": "ENG"
+        }
+    },
+    {
+        "id": "p2",
+        "name": "Bob",
+        "picks": {
+            "Group A": "ZAF",
+            "Group B": "SUI",
+            "Group C": "MAR",
+            "Group D": "AUS",
+            "Group E": "ECU",
+            "Group F": "JPN",
+            "Group G": "IRN",
+            "Group H": "URU",
+            "Group I": "SEN",
+            "Group J": "AUT",
+            "Group K": "COL",
+            "Group L": "CRO"
+        }
+    },
+    {
+        "id": "p3",
+        "name": "Carol",
+        "picks": {
+            "Group A": "KOR",
+            "Group B": "QAT",
+            "Group C": "SCO",
+            "Group D": "PAR",
+            "Group E": "CIV",
+            "Group F": "TUN",
+            "Group G": "EGY",
+            "Group H": "KSA",
+            "Group I": "NOR",
+            "Group J": "ALG",
+            "Group K": "UZB",
+            "Group L": "PAN"
+        }
+    },
+    {
+        "id": "p4",
+        "name": "Diego",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "SUI",
+            "Group C": "BRA",
+            "Group D": "USA",
+            "Group E": "GER",
+            "Group F": "NED",
+            "Group G": "BEL",
+            "Group H": "ESP",
+            "Group I": "FRA",
+            "Group J": "ARG",
+            "Group K": "POR",
+            "Group L": "CRO"
+        }
+    },
+    {
+        "id": "p5",
+        "name": "Eve",
+        "picks": {
+            "Group A": "PFD",
+            "Group B": "PFA",
+            "Group C": "HTI",
+            "Group D": "PFC",
+            "Group E": "CUW",
+            "Group F": "PFB",
+            "Group G": "NZL",
+            "Group H": "CPV",
+            "Group I": "FPT2",
+            "Group J": "JOR",
+            "Group K": "FPT1",
+            "Group L": "GHA"
+        }
+    }
+]

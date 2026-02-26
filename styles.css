@@ -1,0 +1,227 @@
+:root {
+    --bg: #0b0f17;
+    --card: #111827;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --line: rgba(255, 255, 255, 0.08);
+    --accent: #3b82f6;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text);
+
+    /* Background Image */
+    background:
+        linear-gradient(rgba(5, 10, 20, 0.75), rgba(5, 10, 20, 0.85)),
+        url("background.png");
+
+    background-size: cover;
+    /* Fill screen */
+    background-position: center;
+    /* Center image */
+    background-repeat: no-repeat;
+    /* No tiling */
+    background-attachment: fixed;
+    /* Subtle parallax feel */
+}
+
+/* ================= HEADER ================= */
+
+.header {
+    background: var(--card);
+    border-bottom: 1px solid var(--line);
+    padding: 16px 24px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+}
+
+.tab {
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tab.active {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text);
+}
+
+/* ================= LAYOUT ================= */
+
+.container {
+    max-width: 1100px;
+    /* keeps site from stretching full screen */
+    margin: 20px auto;
+    padding: 0 16px;
+}
+
+/* ================= CARD ================= */
+
+.card {
+    background: rgba(17, 24, 39, 0.92);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+.card__header {
+    margin-bottom: 12px;
+}
+
+/* ================= PRIMARY BUTTON ================= */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    box-shadow: 0 0 18px rgba(59, 130, 246, 0.6);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.45);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+}
+
+/* ================= TABLE BASE ================= */
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    font-weight: 600;
+    color: var(--muted);
+}
+
+.num {
+    text-align: right;
+}
+
+.muted {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.badge {
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* ================= ENTRIES SPECIFIC ================= */
+
+/* Grow until horizontal scrollbar disappears, then stop */
+#view-entries .card {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#view-entries .table-wrap {
+    width: fit-content;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* Let table take its natural content width */
+#entriesTable {
+    width: max-content;
+}
+
+/* Freeze the Name column */
+#entriesTable th:first-child,
+#entriesTable td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: var(--card);
+    white-space: nowrap;
+}
+
+/* Keep header above body cells */
+#entriesTable thead th:first-child {
+    z-index: 3;
+}
+
+/* Optional: subtle row hover */
+tbody tr:hover {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+/* ================= STRONGER ZEBRA STRIPING (ALL TABLES) ================= */
+
+#entriesTable tbody tr:nth-child(odd),
+#leaderboardTable tbody tr:nth-child(odd) {
+    background: rgba(59, 130, 246, 0.08);
+}
+
+#entriesTable tbody tr:nth-child(even),
+#leaderboardTable tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.04);
+}
+
+/* Hover state */
+#entriesTable tbody tr:hover,
+#leaderboardTable tbody tr:hover {
+    background: rgba(59, 130, 246, 0.18);
+}
+
+[hidden] {
+    display: none !important;
+}
