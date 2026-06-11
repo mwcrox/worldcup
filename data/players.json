@@ -1,10 +1,28 @@
 [
     {
         "id": "p1",
-        "name": "Alice",
+        "name": "Michael Croxall",
         "picks": {
             "Group A": "MEX",
-            "Group B": "CAN",
+            "Group B": "SUI",
+            "Group C": "MAR",
+            "Group D": "USA",
+            "Group E": "GER",
+            "Group F": "NED",
+            "Group G": "BEL",
+            "Group H": "ESP",
+            "Group I": "FRA",
+            "Group J": "ARG",
+            "Group K": "COL",
+            "Group L": "ENG"
+        }
+    },
+    {
+        "id": "p2",
+        "name": "Zachary Irovando",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "SUI",
             "Group C": "BRA",
             "Group D": "USA",
             "Group E": "GER",
@@ -18,44 +36,134 @@
         }
     },
     {
-        "id": "p2",
-        "name": "Bob",
+        "id": "p3",
+        "name": "Wendy",
         "picks": {
-            "Group A": "ZAF",
-            "Group B": "SUI",
-            "Group C": "MAR",
-            "Group D": "AUS",
+            "Group A": "MEX",
+            "Group B": "BIH",
+            "Group C": "SCO",
+            "Group D": "USA",
             "Group E": "ECU",
             "Group F": "JPN",
-            "Group G": "IRN",
+            "Group G": "BEL",
             "Group H": "URU",
-            "Group I": "SEN",
-            "Group J": "AUT",
+            "Group I": "FRA",
+            "Group J": "ARG",
             "Group K": "COL",
-            "Group L": "CRO"
+            "Group L": "ENG"
         }
     },
     {
-        "id": "p3",
-        "name": "Carol",
+        "id": "p4",
+        "name": "Sarah",
         "picks": {
-            "Group A": "KOR",
-            "Group B": "QAT",
-            "Group C": "SCO",
-            "Group D": "PAR",
-            "Group E": "CIV",
+            "Group A": "MEX",
+            "Group B": "SUI",
+            "Group C": "BRA",
+            "Group D": "USA",
+            "Group E": "CUW",
             "Group F": "TUN",
-            "Group G": "EGY",
-            "Group H": "KSA",
+            "Group G": "BEL",
+            "Group H": "URU",
             "Group I": "NOR",
-            "Group J": "ALG",
+            "Group J": "ARG",
             "Group K": "UZB",
             "Group L": "PAN"
         }
     },
     {
-        "id": "p4",
-        "name": "Diego",
+        "id": "p5",
+        "name": "Melissa",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "SUI",
+            "Group C": "BRA",
+            "Group D": "USA",
+            "Group E": "ECU",
+            "Group F": "TUN",
+            "Group G": "IRN",
+            "Group H": "ESP",
+            "Group I": "NOR",
+            "Group J": "ARG",
+            "Group K": "COL",
+            "Group L": "ENG"
+        }
+    },
+    {
+        "id": "p6",
+        "name": "Tori",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "SUI",
+            "Group C": "MAR",
+            "Group D": "PAR",
+            "Group E": "ECU",
+            "Group F": "SWE",
+            "Group G": "EGY",
+            "Group H": "ESP",
+            "Group I": "FRA",
+            "Group J": "ARG",
+            "Group K": "COL",
+            "Group L": "ENG"
+        }
+    },
+    {
+        "id": "p7",
+        "name": "Madison Carn",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "CAN",
+            "Group C": "BRA",
+            "Group D": "USA",
+            "Group E": "GER",
+            "Group F": "JPN",
+            "Group G": "NZL",
+            "Group H": "ESP",
+            "Group I": "FRA",
+            "Group J": "ARG",
+            "Group K": "COL",
+            "Group L": "PAN"
+        }
+    },
+    {
+        "id": "p8",
+        "name": "ChatGPT",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "SUI",
+            "Group C": "BRA",
+            "Group D": "USA",
+            "Group E": "GER",
+            "Group F": "JPN",
+            "Group G": "BEL",
+            "Group H": "URU",
+            "Group I": "FRA",
+            "Group J": "ARG",
+            "Group K": "COL",
+            "Group L": "ENG"
+        }
+    },
+    {
+        "id": "p9",
+        "name": "Copilot",
+        "picks": {
+            "Group A": "MEX",
+            "Group B": "SUI",
+            "Group C": "BRA",
+            "Group D": "USA",
+            "Group E": "GER",
+            "Group F": "JPN",
+            "Group G": "BEL",
+            "Group H": "URU",
+            "Group I": "FRA",
+            "Group J": "ARG",
+            "Group K": "POR",
+            "Group L": "ENG"
+        }
+    },
+    {
+        "id": "p10",
+        "name": "Gemini",
         "picks": {
             "Group A": "MEX",
             "Group B": "SUI",
@@ -64,29 +172,11 @@
             "Group E": "GER",
             "Group F": "NED",
             "Group G": "BEL",
-            "Group H": "ESP",
+            "Group H": "URU",
             "Group I": "FRA",
             "Group J": "ARG",
             "Group K": "POR",
-            "Group L": "CRO"
-        }
-    },
-    {
-        "id": "p5",
-        "name": "Eve",
-        "picks": {
-            "Group A": "PFD",
-            "Group B": "PFA",
-            "Group C": "HTI",
-            "Group D": "PFC",
-            "Group E": "CUW",
-            "Group F": "PFB",
-            "Group G": "NZL",
-            "Group H": "CPV",
-            "Group I": "FPT2",
-            "Group J": "JOR",
-            "Group K": "FPT1",
-            "Group L": "GHA"
+            "Group L": "ENG"
         }
     }
 ]
