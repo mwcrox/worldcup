@@ -5,8 +5,8 @@
     { "id": "CZE", "name": "Czech Republic", "group": "Group A", "seed": 4, "fairPlay": 0 },
 
     { "id": "CAN", "name": "Canada", "group": "Group B", "seed": 1, "fairPlay": 2 },
-    { "id": "SUI", "name": "Switzerland", "group": "Group B", "seed": 2, "fairPlay": 0 },
-    { "id": "QAT", "name": "Qatar", "group": "Group B", "seed": 3, "fairPlay": 0 },
+    { "id": "SUI", "name": "Switzerland", "group": "Group B", "seed": 2, "fairPlay": 1 },
+    { "id": "QAT", "name": "Qatar", "group": "Group B", "seed": 3, "fairPlay": 2 },
     { "id": "BIH", "name": "Bosnia-Herzegovina", "group": "Group B", "seed": 4, "fairPlay": 3 },
 
     { "id": "BRA", "name": "Brazil", "group": "Group C", "seed": 1, "fairPlay": 0 },
