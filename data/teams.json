@@ -17,7 +17,7 @@
     { "id": "USA", "name": "United States", "group": "Group D", "seed": 1, "fairPlay": 1 },
     { "id": "AUS", "name": "Australia", "group": "Group D", "seed": 2, "fairPlay": 0 },
     { "id": "PAR", "name": "Paraguay", "group": "Group D", "seed": 3, "fairPlay": 5 },
-    { "id": "TUR", "name": "Türkiye", "group": "Group D", "seed": 4, "fairPlay": 0 },
+    { "id": "TUR", "name": "Türkiye", "group": "Group D", "seed": 4, "fairPlay": 1 },
 
     { "id": "GER", "name": "Germany", "group": "Group E", "seed": 1, "fairPlay": 0 },
     { "id": "ECU", "name": "Ecuador", "group": "Group E", "seed": 2, "fairPlay": 0 },
