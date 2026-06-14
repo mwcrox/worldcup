@@ -9,7 +9,7 @@
     { "id": "QAT", "name": "Qatar", "group": "Group B", "seed": 3, "fairPlay": 2 },
     { "id": "BIH", "name": "Bosnia-Herzegovina", "group": "Group B", "seed": 4, "fairPlay": 3 },
 
-    { "id": "BRA", "name": "Brazil", "group": "Group C", "seed": 1, "fairPlay": 0 },
+    { "id": "BRA", "name": "Brazil", "group": "Group C", "seed": 1, "fairPlay": 2 },
     { "id": "MAR", "name": "Morocco", "group": "Group C", "seed": 2, "fairPlay": 0 },
     { "id": "SCO", "name": "Scotland", "group": "Group C", "seed": 3, "fairPlay": 0 },
     { "id": "HTI", "name": "Haiti", "group": "Group C", "seed": 4, "fairPlay": 0 },
