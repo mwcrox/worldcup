@@ -29,9 +29,9 @@
     { "id": "TUN", "name": "Tunisia", "group": "Group F", "seed": 3, "fairPlay": 1 },
     { "id": "SWE", "name": "Sweden", "group": "Group F", "seed": 4, "fairPlay": 0 },
 
-    { "id": "BEL", "name": "Belgium", "group": "Group G", "seed": 1, "fairPlay": 0 },
+    { "id": "BEL", "name": "Belgium", "group": "Group G", "seed": 1, "fairPlay": 2 },
     { "id": "IRN", "name": "IR Iran", "group": "Group G", "seed": 2, "fairPlay": 0 },
-    { "id": "EGY", "name": "Egypt", "group": "Group G", "seed": 3, "fairPlay": 0 },
+    { "id": "EGY", "name": "Egypt", "group": "Group G", "seed": 3, "fairPlay": 2 },
     { "id": "NZL", "name": "New Zealand", "group": "Group G", "seed": 4, "fairPlay": 0 },
 
     { "id": "ESP", "name": "Spain", "group": "Group H", "seed": 1, "fairPlay": 1 },
