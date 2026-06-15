@@ -26,7 +26,7 @@
 
     { "id": "NED", "name": "Netherlands", "group": "Group F", "seed": 1, "fairPlay": 3 },
     { "id": "JPN", "name": "Japan", "group": "Group F", "seed": 2, "fairPlay": 0 },
-    { "id": "TUN", "name": "Tunisia", "group": "Group F", "seed": 3, "fairPlay": 0 },
+    { "id": "TUN", "name": "Tunisia", "group": "Group F", "seed": 3, "fairPlay": 1 },
     { "id": "SWE", "name": "Sweden", "group": "Group F", "seed": 4, "fairPlay": 0 },
 
     { "id": "BEL", "name": "Belgium", "group": "Group G", "seed": 1, "fairPlay": 0 },
