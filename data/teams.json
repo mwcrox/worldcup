@@ -20,8 +20,8 @@
     { "id": "TUR", "name": "Türkiye", "group": "Group D", "seed": 4, "fairPlay": 1 },
 
     { "id": "GER", "name": "Germany", "group": "Group E", "seed": 1, "fairPlay": 0 },
-    { "id": "ECU", "name": "Ecuador", "group": "Group E", "seed": 2, "fairPlay": 0 },
-    { "id": "CIV", "name": "Côte d’Ivoire", "group": "Group E", "seed": 3, "fairPlay": 0 },
+    { "id": "ECU", "name": "Ecuador", "group": "Group E", "seed": 2, "fairPlay": 1 },
+    { "id": "CIV", "name": "Côte d’Ivoire", "group": "Group E", "seed": 3, "fairPlay": 3 },
     { "id": "CUW", "name": "Curaçao", "group": "Group E", "seed": 4, "fairPlay": 0 },
 
     { "id": "NED", "name": "Netherlands", "group": "Group F", "seed": 1, "fairPlay": 3 },
