@@ -36,7 +36,7 @@
 
     { "id": "ESP", "name": "Spain", "group": "Group H", "seed": 1, "fairPlay": 1 },
     { "id": "URU", "name": "Uruguay", "group": "Group H", "seed": 2, "fairPlay": 0 },
-    { "id": "KSA", "name": "Saudi Arabia", "group": "Group H", "seed": 3, "fairPlay": 0 },
+    { "id": "KSA", "name": "Saudi Arabia", "group": "Group H", "seed": 3, "fairPlay": 1 },
     { "id": "CPV", "name": "Cabo Verde", "group": "Group H", "seed": 4, "fairPlay": 1 },
 
     { "id": "FRA", "name": "France", "group": "Group I", "seed": 1, "fairPlay": 0 },
