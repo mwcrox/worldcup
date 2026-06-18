@@ -56,6 +56,6 @@
 
     { "id": "ENG", "name": "England", "group": "Group L", "seed": 1, "fairPlay": 0 },
     { "id": "CRO", "name": "Croatia", "group": "Group L", "seed": 2, "fairPlay": 0 },
-    { "id": "PAN", "name": "Panama", "group": "Group L", "seed": 3, "fairPlay": 0 },
-    { "id": "GHA", "name": "Ghana", "group": "Group L", "seed": 4, "fairPlay": 0 }
+    { "id": "PAN", "name": "Panama", "group": "Group L", "seed": 3, "fairPlay": 2 },
+    { "id": "GHA", "name": "Ghana", "group": "Group L", "seed": 4, "fairPlay": 1 }
 ]
