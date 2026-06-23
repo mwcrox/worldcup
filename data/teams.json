@@ -46,8 +46,8 @@
 
     { "id": "ARG", "name": "Argentina", "group": "Group J", "seed": 1, "fairPlay": 1 },
     { "id": "AUT", "name": "Austria", "group": "Group J", "seed": 2, "fairPlay": 3 },
-    { "id": "ALG", "name": "Algeria", "group": "Group J", "seed": 3, "fairPlay": 0 },
-    { "id": "JOR", "name": "Jordan", "group": "Group J", "seed": 4, "fairPlay": 0 },
+    { "id": "ALG", "name": "Algeria", "group": "Group J", "seed": 3, "fairPlay": 1 },
+    { "id": "JOR", "name": "Jordan", "group": "Group J", "seed": 4, "fairPlay": 1 },
 
     { "id": "POR", "name": "Portugal", "group": "Group K", "seed": 1, "fairPlay": 3 },
     { "id": "COL", "name": "Colombia", "group": "Group K", "seed": 2, "fairPlay": 1 },
