@@ -19,10 +19,10 @@
     { "id": "PAR", "name": "Paraguay", "group": "Group D", "seed": 3, "fairPlay": 11 },
     { "id": "TUR", "name": "Türkiye", "group": "Group D", "seed": 4, "fairPlay": 3 },
 
-    { "id": "GER", "name": "Germany", "group": "Group E", "seed": 1, "fairPlay": 0 },
-    { "id": "ECU", "name": "Ecuador", "group": "Group E", "seed": 2, "fairPlay": 2 },
-    { "id": "CIV", "name": "Côte d’Ivoire", "group": "Group E", "seed": 3, "fairPlay": 3 },
-    { "id": "CUW", "name": "Curaçao", "group": "Group E", "seed": 4, "fairPlay": 5 },
+    { "id": "GER", "name": "Germany", "group": "Group E", "seed": 1, "fairPlay": 1 },
+    { "id": "ECU", "name": "Ecuador", "group": "Group E", "seed": 2, "fairPlay": 5 },
+    { "id": "CIV", "name": "Côte d’Ivoire", "group": "Group E", "seed": 3, "fairPlay": 4 },
+    { "id": "CUW", "name": "Curaçao", "group": "Group E", "seed": 4, "fairPlay": 7 },
 
     { "id": "NED", "name": "Netherlands", "group": "Group F", "seed": 1, "fairPlay": 3 },
     { "id": "JPN", "name": "Japan", "group": "Group F", "seed": 2, "fairPlay": 0 },
