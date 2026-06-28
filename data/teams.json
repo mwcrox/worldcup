@@ -54,8 +54,8 @@
     { "id": "UZB", "name": "Uzbekistan", "group": "Group K", "seed": 3, "fairPlay": 2 },
     { "id": "COD", "name": "DR Congo", "group": "Group K", "seed": 4, "fairPlay": 1 },
 
-    { "id": "ENG", "name": "England", "group": "Group L", "seed": 1, "fairPlay": 1 },
-    { "id": "CRO", "name": "Croatia", "group": "Group L", "seed": 2, "fairPlay": 1 },
-    { "id": "PAN", "name": "Panama", "group": "Group L", "seed": 3, "fairPlay": 3 },
-    { "id": "GHA", "name": "Ghana", "group": "Group L", "seed": 4, "fairPlay": 2 }
+    { "id": "ENG", "name": "England", "group": "Group L", "seed": 1, "fairPlay": 2 },
+    { "id": "CRO", "name": "Croatia", "group": "Group L", "seed": 2, "fairPlay": 2 },
+    { "id": "PAN", "name": "Panama", "group": "Group L", "seed": 3, "fairPlay": 5 },
+    { "id": "GHA", "name": "Ghana", "group": "Group L", "seed": 4, "fairPlay": 3 }
 ]
