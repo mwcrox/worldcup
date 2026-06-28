@@ -50,9 +50,9 @@
     { "id": "JOR", "name": "Jordan", "group": "Group J", "seed": 4, "fairPlay": 1 },
 
     { "id": "POR", "name": "Portugal", "group": "Group K", "seed": 1, "fairPlay": 4 },
-    { "id": "COL", "name": "Colombia", "group": "Group K", "seed": 2, "fairPlay": 2 },
-    { "id": "UZB", "name": "Uzbekistan", "group": "Group K", "seed": 3, "fairPlay": 2 },
-    { "id": "COD", "name": "DR Congo", "group": "Group K", "seed": 4, "fairPlay": 1 },
+    { "id": "COL", "name": "Colombia", "group": "Group K", "seed": 2, "fairPlay": 4 },
+    { "id": "UZB", "name": "Uzbekistan", "group": "Group K", "seed": 3, "fairPlay": 4 },
+    { "id": "COD", "name": "DR Congo", "group": "Group K", "seed": 4, "fairPlay": 5 },
 
     { "id": "ENG", "name": "England", "group": "Group L", "seed": 1, "fairPlay": 2 },
     { "id": "CRO", "name": "Croatia", "group": "Group L", "seed": 2, "fairPlay": 2 },
